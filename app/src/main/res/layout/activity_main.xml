@@ -22,13 +22,7 @@
 
     <Button
         android:id="@+id/buttonSpotifyStreamer"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
-        android:background="#F08C35"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/abc_text_size_button_material"
+        style="@style/AppButton"
         android:text="@string/spotify"
         android:textAlignment="center"
         android:onClick="onClickSpotifyStreamer" />
@@ -36,38 +30,21 @@
 
     <Button
         android:id="@+id/buttonScoresApp"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
-        android:background="#F08C35"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/abc_text_size_button_material"
+        style="@style/AppButton"
         android:text="@string/scores"
         android:textAlignment="center"
         android:onClick="onClickScoresApp" />
 
     <Button
         android:id="@+id/libraryApp"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
-        android:background="#F08C35"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/abc_text_size_button_material"
+        style="@style/AppButton"
         android:text="@string/library"
         android:textAlignment="center"
         android:onClick="onClickLibraryApp" />
 
     <Button
         android:id="@+id/buttonBuildItBigger"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
-        android:background="#F08C35"
-        android:gravity="center_horizontal"
+        style="@style/AppButton"
         android:padding="@dimen/abc_text_size_button_material"
         android:text="@string/build"
         android:textAlignment="center"
@@ -75,13 +52,7 @@
 
     <Button
         android:id="@+id/buttonXyzReader"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
-        android:background="#F08C35"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/abc_text_size_button_material"
+        style="@style/AppButton"
         android:text="@string/reader"
         android:textAlignment="center"
         android:onClick="onClickXyzReader" />
@@ -89,15 +60,9 @@
 
     <Button
         android:id="@+id/buttonCapstone"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="@dimen/abc_button_padding_vertical_material"
+        style="@style/AppButton"
         android:background="#fff03436"
-        android:gravity="center_horizontal"
-        android:padding="@dimen/abc_text_size_button_material"
         android:text="@string/capstone"
         android:textAlignment="center"
-        android:textColor="#ffffffff"
         android:onClick="onClickCapstone" />
 </LinearLayout>
